@@ -1,14 +1,15 @@
 @import "../style.scss";
 
 .methodology{
-    background: $second;
     padding: 2rem;
     border-radius: 2rem;
     margin: 3rem;
 
 
     >h1{
-
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 500;
     }
 
     >.methodologyContent{
@@ -17,11 +18,12 @@
         
 
         >.info{
-            margin: 1rem 4rem;
+            margin: 1rem 1rem;
             display: flex;
             justify-content: space-between;
-            background: linear-gradient( 90deg,$second, rgba(0, 0, 255, 0.486));
+            background: $second;
             border-radius: 2rem;
+            padding-left: 4rem;
 
             >.text{
                 display: flex;

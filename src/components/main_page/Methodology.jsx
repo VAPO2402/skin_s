@@ -2,7 +2,7 @@ import React from 'react'
 
 import "../../styles/styles_main/methodology.scss"
 
-import dna from "../../assets/dna.png";
+import dna from "../../assets/dna1.png";
 import sphere from "../../assets/sphere.png";
 import liver from "../../assets/liver1.png";
 import injection from "../../assets/injection.png";
