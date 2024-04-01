@@ -1,0 +1,17 @@
+@import "./style.scss";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-style: normal;
+    font-family: $text1;
+    color: $fifth;
+}
+
+body{
+    margin: 1rem;
+    background: $first;
+}

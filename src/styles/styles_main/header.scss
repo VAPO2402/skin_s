@@ -1,0 +1,33 @@
+@import "../style.scss";
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    >.logo{
+        width: 45%;
+        color: $fifth;
+        font-size: 1.75rem;
+        font-weight: 900;
+
+        >sup{
+            color: $third;
+        }
+    }
+
+    >nav{
+        width: 48%;
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+
+        >.navLinks{
+            font-size: 1.2rem;
+            // font-weight: 400;
+        }
+
+        >.navSpan{
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+@import "../style.scss";
+
+.expertise{
+
+    >h1{
+        font-size: 5rem;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 1rem;
+
+        >span{
+            color: $third;
+            font-size: 8rem;
+        }
+    }
+
+    >.pampletsAbove{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 4rem;
+
+        >.pamplets{
+            width: 48%;
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient( 90deg,$second, rgba(0, 0, 255, 0.486));
+            border-radius: 1.5rem;
+
+            >.image{
+                width: 50%;
+
+                >img{
+                    width: 20rem;
+                    height: 12rem;
+                    
+                }
+            }
+
+            >.text{
+                width: 50%;
+                font-size: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+                >span{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    >.pampletsBelow{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 4rem;
+
+        >.pamplets{
+            width: 48%;
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient( 90deg,$second, rgba(0, 0, 255, 0.486));
+            border-radius: 1.5rem;
+
+            >.image{
+                width: 50%;
+
+                >img{
+                    width: 20rem;
+                    height: 12rem;
+                    
+                }
+            }
+
+            >.text{
+                width: 50%;
+                font-size: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+                >span{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

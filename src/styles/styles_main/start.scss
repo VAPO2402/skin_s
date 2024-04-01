@@ -1,0 +1,132 @@
+@import "../style.scss";
+
+.start{
+
+    >.startContent{
+        background: $second;
+        border-radius: 3rem;
+        padding: 2rem 3.5rem;
+        color: $fifth;
+
+        >.main{
+            display: flex;
+            justify-content: space-between;
+
+            >.mainText{
+                margin-top: 2rem;
+    
+                >h1{
+                    font-size: 12rem;
+                    font-weight: 500;
+                    margin-left: -1rem;
+                    margin-top: -2rem;
+                }
+
+                >.dot{
+                    margin-top: -3.5rem;
+
+                    >span{
+                        color: $third;
+                    }
+                }
+            }
+
+            >.mainButton{
+                margin-left: -11rem;
+
+                >button{
+                    padding: 1rem 2.5rem;
+                    background: $third;
+                    border-radius: 1.8rem;
+                    border: none;
+                    outline: none;
+                    font-size: 1.4rem;
+                    margin-top: 8rem;
+
+                    >.linkButton{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        >.startMid{
+            display: flex;
+            justify-content: space-between;
+
+            >.content{
+                width: 40%;
+                display: grid;
+
+                >.contentText{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 3rem;
+                    margin-bottom: 4rem;
+
+                    >p{
+                        font-size: 1.15rem;
+                        color: dimgrey;
+                        
+                    }
+                }
+
+                >span{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    word-spacing: 1.8rem;
+                    font-size: 1.2rem;
+                }
+            }
+
+            >.image{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+
+                >img{
+                    margin-left: 12rem;
+                    margin-bottom: -25rem;
+                    height: 35rem;
+                    margin-top: -4rem;
+                    z-index: 1;
+                }
+
+                >p{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-top: -3rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    >.startEnd{
+        background: $third;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 2.5rem;
+        padding: 1.4rem 3rem;
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 1.2rem;
+        
+
+        >h1{
+            color: white;
+            word-spacing: 0.5rem;
+            font-weight: 500;
+            margin-left: 1.5rem;
+
+            >span{
+                color: darkblue;
+                margin: 0rem 2.5rem;
+            }
+        }
+    }
+}
