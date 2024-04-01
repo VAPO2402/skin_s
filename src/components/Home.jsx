@@ -12,7 +12,7 @@ const Home = () => {
       <Expertise />
       <Startprogram />
       <Methodology />
-      <Homeend />
+      {/* <Homeend /> */}
     </main>
   )
 }

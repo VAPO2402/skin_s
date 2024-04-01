@@ -26,6 +26,14 @@ header{
             // font-weight: 400;
         }
 
+        >.navLinks:hover{
+            color: $third;
+        }
+
+        >.navLinks:focus{
+            color: black;
+        }
+
         >.navSpan{
             font-size: 1rem;
         }

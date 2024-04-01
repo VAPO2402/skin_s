@@ -1,0 +1,141 @@
+@import "../style.scss";
+
+.appointment{
+    display: grid;
+    margin-top: 2rem;
+    background: $second;
+    border-radius: 3rem;
+    padding: 2rem;
+
+    >.contentAbove{
+        display: flex;
+
+        >.image{
+            background: white;
+            padding: 2rem;
+            display: grid;
+            border-radius: 2rem;
+            margin-top: 2rem;
+
+            >img{
+                width: 16rem;
+                height: 11rem;
+                border-radius: 1.5rem;
+            }
+
+            h1{
+                font-size: 1.6rem;
+                padding-top: 1rem;
+                padding-left: 0.6rem;
+            }
+        }
+
+        >.contentHeading{
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+
+            >h1{
+                font-size: 4rem;
+
+                >span{
+                    color: #5356ffb0;
+                }
+            }
+        }
+    }
+
+    >.contentBelow{
+        display: flex;
+        justify-content: space-between;
+
+        >.scheduleButton{
+            display: grid;
+            margin-top: 3rem;
+            border-radius: 2rem;
+            padding: 1rem;
+            background: url("../../assets/sphere.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0rem 6rem 0rem 2rem;
+
+            >h1{
+                padding: 2rem 0rem 0rem;
+                font-size: 1.8rem;
+                font-weight: 600;
+                word-spacing: 0.4rem;
+                text-align: center;
+                margin-left: -5rem;
+                margin-top: 1rem;
+            }
+
+            >button{
+                border-radius: 1.4rem;
+                padding: 0.8rem 1.5rem;
+                margin: 3rem 8.5rem 0rem 3.5rem;
+                font-size: 2rem;
+                background: #5356ffb0;
+                color: white;
+                outline: none;
+                border: none;
+            }
+        }
+
+        >.numbers{
+            display: grid;
+            margin-left: -10rem;
+
+            >.doctors{
+                display: flex;
+                justify-content: flex-end;
+                
+                
+                >h1{
+                    background: white;
+                    border-radius: 2rem;
+                    padding: 1rem;
+                    padding-top: 2.5rem;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    margin-bottom: 4rem;
+                    margin-top: -8rem;
+                    word-spacing: 0.4rem;
+
+                    >span{
+                        color: dimgrey;
+                    }
+                }
+            }
+
+            >.customers{
+                background: white;
+                padding: 1.5rem 1.5rem 0rem;
+                border-radius: 2rem;
+                font-size: 1.2rem;
+                margin-left: -7rem;
+                margin-right: 6rem;
+
+                >h1{
+                    text-align: center;
+                    font-size: 2rem;
+                    font-weight: 800;
+
+                    >span{
+                        color: $third;
+                    }
+                }
+
+                >.modesService{
+                    border-radius: 2rem;
+                    padding: 1rem;
+                    background: #5356ffb0;
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+
+        >.doctor{
+            margin-top: -20rem;
+        }
+    }
+}
