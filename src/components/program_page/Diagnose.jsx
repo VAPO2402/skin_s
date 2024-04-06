@@ -44,6 +44,7 @@ const Diagnose = () => {
               <input type="text" placeholder='Full name' name='userName' />
               <input type="number" placeholder='Mobile Number' name='userNumber' />
               <input type="email" placeholder='Email' name='userEmail' />
+              <button> + Upload Image</button>
               <textarea name="Enter Symptoms" cols="28" rows="3" placeholder='Enter Symptoms'></textarea>
               <input type="submit" value="Send" className='submit' />
             </div>

@@ -23,7 +23,7 @@
             width: 48%;
             display: flex;
             justify-content: space-between;
-            background: linear-gradient( 90deg,$second, rgba(0, 0, 255, 0.486));
+            background: $second;
             border-radius: 1.5rem;
 
             >.image{

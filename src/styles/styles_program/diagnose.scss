@@ -22,6 +22,7 @@
             >h1{
                 font-size: 5rem;
                 color: white;
+                padding: 2rem;
 
                 >span{
                     color: $fifth;
@@ -44,7 +45,7 @@
 
             >form{
                 border-radius: 3rem;
-                padding: 1rem;
+                padding: 1.2rem;
                 display: grid;
                 justify-content: space-between;
                 text-align: center;
@@ -65,6 +66,19 @@
                     padding: 0.5rem 2rem;
 
                     >input{
+                        border-radius: 2rem;
+                        padding: 0.8rem 1.5rem;
+                        font-size: 1.2rem;
+                        margin-top: 1rem;
+                        box-shadow: 0 0 0px 0 $fifth,
+                        inset -100px 10px 100px 20px transparent,
+                        0 0 8px 0px $fifth,
+                        inset 0 0 0px 0 transparent;
+                        outline: none;
+                        border: none;
+                    }
+
+                    >button{
                         border-radius: 2rem;
                         padding: 0.8rem 1.5rem;
                         font-size: 1.2rem;
