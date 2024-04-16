@@ -10,15 +10,15 @@ const Header = () => {
         S<sup>+</sup>
       </div>
       <nav>
-        <Link to={"/technology"} className='navLinks'>Technology</Link>
+        <Link to={"/"} className='navLinks'>Technology</Link>
         <span className='navSpan'> / </span>
-        <Link to={"/program"} className='navLinks'>Program</Link>
+        <Link to={"/"} className='navLinks'>Program</Link>
         <span className='navSpan'> / </span>
-        <Link to={"/learn"} className='navLinks'>Learn</Link>
+        <Link to={"/"} className='navLinks'>Learn</Link>
         <span className='navSpan'> / </span>
-        <Link to={"/about"} className='navLinks'>About</Link>
+        <Link to={"/"} className='navLinks'>About</Link>
         <span className='navSpan'> / </span>
-        <Link to={"/Contact"} className='navLinks'>Conatct</Link>
+        <Link to={"/"} className='navLinks'>Conatct</Link>
       </nav>
     </header>
   )
